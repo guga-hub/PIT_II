@@ -1,0 +1,33 @@
+div#products {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin: 5px;
+    color: grey;
+}
+
+button#b1 {
+    margin-left: 80px;
+    margin-top: 5px;
+}
+
+div#qnt {
+    margin-top: 5px;
+}
+
+button#b2 {
+    margin-left: 25%;
+    margin-top: 10px;
+}
+
+div#h1 {
+    color: dimgray;
+    float: left;
+    width: 10%;
+}
+
+p {
+    color: dimgrey;
+}
+
+#filter {
+    float: right;
+}

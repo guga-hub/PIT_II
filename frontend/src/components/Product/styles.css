@@ -1,0 +1,19 @@
+div h4 {
+    margin-left: 80px;
+}
+
+div h5 {
+    margin-left: 20px;
+}
+
+#nome {
+    text-align: center;
+}
+
+#preco {
+    font-size: 18px;
+}
+
+#card {
+    margin-bottom: 7rem;
+}
