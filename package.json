@@ -6,17 +6,11 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/joseiscj/eStore.git"
-  },
+  "repository": "git+https://github.com/guga-hub/appCupcake",
   "keywords": [],
-  "author": "",
+  "author": "gugaHub <lima.universitario@gmail.com>",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/joseiscj/eStore/issues"
-  },
-  "homepage": "https://github.com/joseiscj/eStore#readme",
+  "homepage": "https://github.com/guga-hub/appCupcake#readme",
   "dependencies": {
     "bootstrap": "^4.5.3",
     "react-bootstrap": "^1.4.0"

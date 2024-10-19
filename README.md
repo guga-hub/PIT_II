@@ -39,4 +39,4 @@ Para instalar as dependências, execute o seguinte comando:
  
 Depois que as dependências estiverem completamente instaladas, você precisará executar o seguinte comando nos diretórios do cliente e do servidor separadamente:
 
-`yarn start`
+`yarn run start`
