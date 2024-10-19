@@ -10,6 +10,9 @@
   "keywords": [],
   "author": "gugaHub <lima.universitario@gmail.com>",
   "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/guga-hub/PIT_II/issues"
+  },
   "homepage": "https://github.com/guga-hub/PIT_II#readme",
   "dependencies": {
     "bootstrap": "^4.5.3",
