@@ -9,6 +9,13 @@
   dependencies:
     regenerator-runtime "^0.13.4"
 
+"@mongodb-js/saslprep@^1.1.5":
+  version "1.1.9"
+  resolved "https://registry.npmjs.org/@mongodb-js/saslprep/-/saslprep-1.1.9.tgz"
+  integrity sha512-tVkljjeEaAhCqTzajSdgbQ6gE6f3oneVwa3iXR6csiEwXXOFsiC6Uh9iAjAhXPtqa/XMDHWjjeNH/77m/Yq2dw==
+  dependencies:
+    sparse-bitfield "^3.0.3"
+
 "@popperjs/core@^2.5.3":
   version "2.5.4"
   resolved "https://registry.npmjs.org/@popperjs/core/-/core-2.5.4.tgz"
@@ -62,10 +69,27 @@
   resolved "https://registry.npmjs.org/@types/warning/-/warning-3.0.0.tgz"
   integrity sha1-DSUBJorY+ZYrdA04fEZU9fjiPlI=
 
+"@types/webidl-conversions@*":
+  version "7.0.3"
+  resolved "https://registry.npmjs.org/@types/webidl-conversions/-/webidl-conversions-7.0.3.tgz"
+  integrity sha512-CiJJvcRtIgzadHCYXw7dqEnMNRjhGZlYK05Mj9OyktqV8uVT8fD2BFOB7S1uwBE3Kj2Z+4UyPmFw/Ixgw/LAlA==
+
+"@types/whatwg-url@^11.0.2":
+  version "11.0.5"
+  resolved "https://registry.npmjs.org/@types/whatwg-url/-/whatwg-url-11.0.5.tgz"
+  integrity sha512-coYR071JRaHa+xoEvvYqvnIHaVqaYrLPbsufM9BF63HkwI5Lgmy2QR8Q5K/lYDYo5AK82wOvSOS0UsLTpTG7uQ==
+  dependencies:
+    "@types/webidl-conversions" "*"
+
 bootstrap@^4.5.3:
   version "4.5.3"
   resolved "https://registry.npmjs.org/bootstrap/-/bootstrap-4.5.3.tgz"
   integrity sha512-o9ppKQioXGqhw8Z7mah6KdTYpNQY//tipnkxppWhPbiSWdD+1raYsnhwEZjkTHYbGee4cVQ0Rx65EhOY/HNLcQ==
+
+bson@^6.7.0:
+  version "6.8.0"
+  resolved "https://registry.npmjs.org/bson/-/bson-6.8.0.tgz"
+  integrity sha512-iOJg8pr7wq2tg/zSlCCHMi3hMm5JTOxLTagf3zxhcenHsFp+c6uOs6K7W5UE7A4QIJGtqh/ZovFNMP4mOPJynQ==
 
 classnames@^2.2.6:
   version "2.2.6"
@@ -76,6 +100,13 @@ csstype@^3.0.2:
   version "3.0.5"
   resolved "https://registry.npmjs.org/csstype/-/csstype-3.0.5.tgz"
   integrity sha512-uVDi8LpBUKQj6sdxNaTetL6FpeCqTjOvAQuQUa/qAqq8oOd4ivkbhgnqayl0dnPal8Tb/yB1tF+gOvCBiicaiQ==
+
+debug@4.x:
+  version "4.3.7"
+  resolved "https://registry.npmjs.org/debug/-/debug-4.3.7.tgz"
+  integrity sha512-Er2nc/H7RrMXZBFCEim6TCmMk02Z8vLC2Rbi1KEBggpo0fS6l0S1nnapwmIi3yW/+GOJap1Krg4w0Hg80oCqgQ==
+  dependencies:
+    ms "^2.1.3"
 
 dom-helpers@^5.0.1, dom-helpers@^5.1.2, dom-helpers@^5.2.0:
   version "5.2.0"
@@ -92,10 +123,20 @@ invariant@^2.2.4:
   dependencies:
     loose-envify "^1.0.0"
 
+"jquery@1.9.1 - 3":
+  version "3.7.1"
+  resolved "https://registry.npmjs.org/jquery/-/jquery-3.7.1.tgz"
+  integrity sha512-m4avr8yL8kmFN8psrbFFFmB/If14iN5o9nw/NgnnM+kybDJpRsAynV2BsfpTYrTRysYUdADVD7CkUUizgkpLfg==
+
 "js-tokens@^3.0.0 || ^4.0.0":
   version "4.0.0"
   resolved "https://registry.npmjs.org/js-tokens/-/js-tokens-4.0.0.tgz"
   integrity sha512-RdJUflcE3cUzKiMqQgsCu06FPu9UdIJO0beYbPhHN4k6apgJtifcoCtT9bcxOpYBtpD2kCM6Sbzg4CausW/PKQ==
+
+kareem@2.6.3:
+  version "2.6.3"
+  resolved "https://registry.npmjs.org/kareem/-/kareem-2.6.3.tgz"
+  integrity sha512-C3iHfuGUXK2u8/ipq9LfjFfXFxAZMQJJq7vLS45r3D9Y2xQ/m4S8zaR4zMLFWh9AsNPXmcFfUDhTEO8UIC/V6Q==
 
 lodash-es@^4.17.15:
   version "4.17.15"
@@ -107,17 +148,74 @@ lodash@^4.17.15:
   resolved "https://registry.npmjs.org/lodash/-/lodash-4.17.20.tgz"
   integrity sha512-PlhdFcillOINfeV7Ni6oF1TAEayyZBoZ8bcshTHqOYJYlrqzRK5hagpagky5o4HfCzzd1TRkXPMFq6cKk9rGmA==
 
-loose-envify@^1.0.0, loose-envify@^1.4.0:
+loose-envify@^1.0.0, loose-envify@^1.1.0, loose-envify@^1.4.0:
   version "1.4.0"
   resolved "https://registry.npmjs.org/loose-envify/-/loose-envify-1.4.0.tgz"
   integrity sha512-lyuxPGr/Wfhrlem2CL/UcnUc1zcqKAImBDzukY7Y5F/yQiNdko6+fRLevlw1HgMySw7f611UIY408EtxRSoK3Q==
   dependencies:
     js-tokens "^3.0.0 || ^4.0.0"
 
+memory-pager@^1.0.2:
+  version "1.5.0"
+  resolved "https://registry.npmjs.org/memory-pager/-/memory-pager-1.5.0.tgz"
+  integrity sha512-ZS4Bp4r/Zoeq6+NLJpP+0Zzm0pR8whtGPf1XExKLJBAczGMnSi3It14OiNCStjQjM6NU1okjQGSxgEZN8eBYKg==
+
+mongodb-connection-string-url@^3.0.0:
+  version "3.0.1"
+  resolved "https://registry.npmjs.org/mongodb-connection-string-url/-/mongodb-connection-string-url-3.0.1.tgz"
+  integrity sha512-XqMGwRX0Lgn05TDB4PyG2h2kKO/FfWJyCzYQbIhXUxz7ETt0I/FqHjUeqj37irJ+Dl1ZtU82uYyj14u2XsZKfg==
+  dependencies:
+    "@types/whatwg-url" "^11.0.2"
+    whatwg-url "^13.0.0"
+
+mongodb@6.9.0:
+  version "6.9.0"
+  resolved "https://registry.npmjs.org/mongodb/-/mongodb-6.9.0.tgz"
+  integrity sha512-UMopBVx1LmEUbW/QE0Hw18u583PEDVQmUmVzzBRH0o/xtE9DBRA5ZYLOjpLIa03i8FXjzvQECJcqoMvCXftTUA==
+  dependencies:
+    "@mongodb-js/saslprep" "^1.1.5"
+    bson "^6.7.0"
+    mongodb-connection-string-url "^3.0.0"
+
+mongoose@^8.7.2:
+  version "8.7.2"
+  resolved "https://registry.npmjs.org/mongoose/-/mongoose-8.7.2.tgz"
+  integrity sha512-Ok4VzMds9p5G3ZSUhmvBm1GdxanbzhS29jpSn02SPj+IXEVFnIdfwAlHHXWkyNscZKlcn8GuMi68FH++jo0flg==
+  dependencies:
+    bson "^6.7.0"
+    kareem "2.6.3"
+    mongodb "6.9.0"
+    mpath "0.9.0"
+    mquery "5.0.0"
+    ms "2.1.3"
+    sift "17.1.3"
+
+mpath@0.9.0:
+  version "0.9.0"
+  resolved "https://registry.npmjs.org/mpath/-/mpath-0.9.0.tgz"
+  integrity sha512-ikJRQTk8hw5DEoFVxHG1Gn9T/xcjtdnOKIU1JTmGjZZlg9LST2mBLmcX3/ICIbgJydT2GOc15RnNy5mHmzfSew==
+
+mquery@5.0.0:
+  version "5.0.0"
+  resolved "https://registry.npmjs.org/mquery/-/mquery-5.0.0.tgz"
+  integrity sha512-iQMncpmEK8R8ncT8HJGsGc9Dsp8xcgYMVSbs5jgnm1lFHTZqMJTUWTDx1LBO8+mK3tPNZWFLBghQEIOULSTHZg==
+  dependencies:
+    debug "4.x"
+
+ms@^2.1.3, ms@2.1.3:
+  version "2.1.3"
+  resolved "https://registry.npmjs.org/ms/-/ms-2.1.3.tgz"
+  integrity sha512-6FlzubTLZG3J2a/NVCAleEhjzq5oxgHyaCU9yYXvcLsvoVaHJq/s5xXI6/XXP6tz7R9xAOtHnSO/tXtF3WRTlA==
+
 object-assign@^4.1.1:
   version "4.1.1"
   resolved "https://registry.npmjs.org/object-assign/-/object-assign-4.1.1.tgz"
   integrity sha1-IQmtx5ZYh8/AXLvUQsrIv7s2CGM=
+
+popper.js@^1.16.1:
+  version "1.16.1"
+  resolved "https://registry.npmjs.org/popper.js/-/popper.js-1.16.1.tgz"
+  integrity sha512-Wb4p1J4zyFTbM+u6WuO4XstYx4Ky9Cewe4DWrel7B0w6VVICvPwdOpotjzcf6eD8TsckVnIMNONQyPIUFOUbCQ==
 
 prop-types-extra@^1.1.0:
   version "1.1.1"
@@ -135,6 +233,11 @@ prop-types@^15.6.2, prop-types@^15.7.2:
     loose-envify "^1.4.0"
     object-assign "^4.1.1"
     react-is "^16.8.1"
+
+punycode@^2.3.0:
+  version "2.3.1"
+  resolved "https://registry.npmjs.org/punycode/-/punycode-2.3.1.tgz"
+  integrity sha512-vYt7UD1U9Wg6138shLtLOvdAu+8DsC/ilFtEVHcH+wydcSpNE20AfSOduf6MkRFahL5FY7X1oU7nKVZFtfq8Fg==
 
 react-bootstrap@^1.4.0:
   version "1.4.0"
@@ -159,6 +262,14 @@ react-bootstrap@^1.4.0:
     react-transition-group "^4.4.1"
     uncontrollable "^7.0.0"
     warning "^4.0.3"
+
+react-dom@>=16.3.0, react-dom@>=16.6.0, react-dom@>=16.8.0:
+  version "18.3.1"
+  resolved "https://registry.npmjs.org/react-dom/-/react-dom-18.3.1.tgz"
+  integrity sha512-5m4nQKp+rZRb09LNH59GM4BxTh9251/ylbKIbpe7TpGxfJ+9kv6BLkLBXIjjspbgbnIBNqlI23tRnTWT0snUIw==
+  dependencies:
+    loose-envify "^1.1.0"
+    scheduler "^0.23.2"
 
 react-is@^16.3.2, react-is@^16.8.1:
   version "16.13.1"
@@ -194,10 +305,45 @@ react-transition-group@^4.4.1:
     loose-envify "^1.4.0"
     prop-types "^15.6.2"
 
+react@^16.8.0, react@^18.3.1, react@>=0.14.0, react@>=15.0.0, react@>=16.3.0, react@>=16.3.2, react@>=16.6.0, react@>=16.8.0:
+  version "16.14.0"
+  resolved "https://registry.npmjs.org/react/-/react-16.14.0.tgz"
+  integrity sha512-0X2CImDkJGApiAlcf0ODKIneSwBPhqJawOa5wCtKbu7ZECrmS26NvtSILynQ66cgkT/RJ4LidJOc3bUESwmU8g==
+  dependencies:
+    loose-envify "^1.1.0"
+    object-assign "^4.1.1"
+    prop-types "^15.6.2"
+
 regenerator-runtime@^0.13.4:
   version "0.13.7"
   resolved "https://registry.npmjs.org/regenerator-runtime/-/regenerator-runtime-0.13.7.tgz"
   integrity sha512-a54FxoJDIr27pgf7IgeQGxmqUNYrcV338lf/6gH456HZ/PhX+5BcwHXG9ajESmwe6WRO0tAzRUrRmNONWgkrew==
+
+scheduler@^0.23.2:
+  version "0.23.2"
+  resolved "https://registry.npmjs.org/scheduler/-/scheduler-0.23.2.tgz"
+  integrity sha512-UOShsPwz7NrMUqhR6t0hWjFduvOzbtv7toDH1/hIrfRNIDBnnBWd0CwJTGvTpngVlmwGCdP9/Zl/tVrDqcuYzQ==
+  dependencies:
+    loose-envify "^1.1.0"
+
+sift@17.1.3:
+  version "17.1.3"
+  resolved "https://registry.npmjs.org/sift/-/sift-17.1.3.tgz"
+  integrity sha512-Rtlj66/b0ICeFzYTuNvX/EF1igRbbnGSvEyT79McoZa/DeGhMyC5pWKOEsZKnpkqtSeovd5FL/bjHWC3CIIvCQ==
+
+sparse-bitfield@^3.0.3:
+  version "3.0.3"
+  resolved "https://registry.npmjs.org/sparse-bitfield/-/sparse-bitfield-3.0.3.tgz"
+  integrity sha512-kvzhi7vqKTfkh0PZU+2D2PIllw2ymqJKujUcyPMd9Y75Nv4nPbGJZXNhxsgdQab2BmlDct1YnfQCguEvHr7VsQ==
+  dependencies:
+    memory-pager "^1.0.2"
+
+tr46@^4.1.1:
+  version "4.1.1"
+  resolved "https://registry.npmjs.org/tr46/-/tr46-4.1.1.tgz"
+  integrity sha512-2lv/66T7e5yNyhAAC4NaKe5nVavzuGJQVVtRYLyQ2OI8tsJ61PMLlelehb0wi2Hx6+hT/OJUWZcw8MjlSRnxvw==
+  dependencies:
+    punycode "^2.3.0"
 
 uncontrollable@^7.0.0:
   version "7.1.1"
@@ -215,3 +361,16 @@ warning@^4.0.0, warning@^4.0.3:
   integrity sha512-rpJyN222KWIvHJ/F53XSZv0Zl/accqHR8et1kpaMTD/fLCRxtV8iX8czMzY7sVZupTI3zcUTg8eycS2kNF9l6w==
   dependencies:
     loose-envify "^1.0.0"
+
+webidl-conversions@^7.0.0:
+  version "7.0.0"
+  resolved "https://registry.npmjs.org/webidl-conversions/-/webidl-conversions-7.0.0.tgz"
+  integrity sha512-VwddBukDzu71offAQR975unBIGqfKZpM+8ZX6ySk8nYhVoo5CYaZyzt3YBvYtRtO+aoGlqxPg/B87NGVZ/fu6g==
+
+whatwg-url@^13.0.0:
+  version "13.0.0"
+  resolved "https://registry.npmjs.org/whatwg-url/-/whatwg-url-13.0.0.tgz"
+  integrity sha512-9WWbymnqj57+XEuqADHrCJ2eSXzn8WXIW/YSGaZtb2WKAInQ6CHfaUUcTyyver0p8BDg5StLQq8h1vtZuwmOig==
+  dependencies:
+    tr46 "^4.1.1"
+    webidl-conversions "^7.0.0"

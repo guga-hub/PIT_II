@@ -1,5 +1,5 @@
 {
-  "name": "Cupcake Store",
+  "name": "cupcakestore",
   "version": "1.0.0",
   "description": "## Descrição",
   "main": "index.js",
@@ -16,6 +16,7 @@
   "homepage": "https://github.com/guga-hub/PIT_II#readme",
   "dependencies": {
     "bootstrap": "^4.5.3",
+    "mongoose": "^8.7.2",
     "react-bootstrap": "^1.4.0"
   }
 }
