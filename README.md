@@ -31,7 +31,7 @@ A IDE utilizada foi o Visual Studio Code.
 
 Para visualizar o projeto e/ou executá-lo localmente basta colocar o seguinte comando no terminal:
 
-`git clone https://github.com/guga-hub/appCupcake`
+`git clone https://github.com/guga-hub/PIT_II`
 
 Para instalar as dependências, execute o seguinte comando:
 

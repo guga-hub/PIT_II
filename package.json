@@ -6,11 +6,11 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "repository": "git+https://github.com/guga-hub/appCupcake",
+  "repository": "git+https://github.com/guga-hub/PIT_II",
   "keywords": [],
   "author": "gugaHub <lima.universitario@gmail.com>",
   "license": "ISC",
-  "homepage": "https://github.com/guga-hub/appCupcake#readme",
+  "homepage": "https://github.com/guga-hub/PIT_II#readme",
   "dependencies": {
     "bootstrap": "^4.5.3",
     "react-bootstrap": "^1.4.0"
